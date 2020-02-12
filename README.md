@@ -28,3 +28,4 @@ Other stuff:
 Other other stuff:
 
 - [tldr](https://tldr.sh/) Simplified man pages
+- [trailer](https://github.com/ptsochantaris/trailer) Alerts for Pull Requests and Issues For GitHub & GitHub Enterprise
