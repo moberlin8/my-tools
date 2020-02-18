@@ -30,3 +30,38 @@ Other other stuff:
 
 - [tldr](https://tldr.sh/) - Simplified man pages
 - [trailer](https://github.com/ptsochantaris/trailer) - Alerts for Pull Requests and Issues For GitHub & GitHub Enterprise
+
+### A few configuration notes (for zsh and byobu)
+
+#### Install needed software (debian or Ubuntu)
+`sudo apt install -y git zsh byobu`
+
+#### Set zsh as my shell
+`chsh -s /bin/zsh`
+
+#### Install oh-my-zsh
+`sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+
+#### Install powerlevel10k
+`git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k`
+
+#### Install zsh-autosuggestions plugin
+`git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
+
+#### edit `~/.zshrc`
+```
+ZSH_THEME="powerlevel10k/powerlevel10k"
+plugins=(zsh-autosuggestions git kube-ps1 kubectl)
+```
+
+#### edit `~/.p10k.zsh`
+```
+typeset -g POWERLEVEL9K_TIME_FORMAT='%D{%L:%M}'
+```
+
+#### edit `~/.byobu/.tmux.conf`
+```
+# mao 2020-02-18 https://gist.github.com/ziwon/5874217
+# enable 256-colors
+set -g default-terminal "screen-256color"
+```
