@@ -57,6 +57,12 @@ plugins=(zsh-autosuggestions git kube-ps1 kubectl)
 #### edit `~/.p10k.zsh`
 ```
 typeset -g POWERLEVEL9K_TIME_FORMAT='%D{%L:%M}'
+
+#############[ kubecontext: current kubernetes context (https://kubernetes.io/) ]#############
+# Show kubecontext only when the the command you are typing invokes one of these tools.
+# Tip: Remove the next line to always show kubecontext.
+###typeset -g POWERLEVEL9K_KUBECONTEXT_SHOW_ON_COMMAND='kubectl|helm|kubens|kubectx|oc'
+
 ```
 
 #### edit `~/.byobu/.tmux.conf`
