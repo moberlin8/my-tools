@@ -30,8 +30,11 @@ Other other stuff:
 
 - [tldr](https://tldr.sh/) - Simplified man pages
 - [trailer](https://github.com/ptsochantaris/trailer) - Alerts for Pull Requests and Issues For GitHub & GitHub Enterprise
-
+- [JHipster](https://www.jhipster.tech/) Quickstart for creating a Java Spring app
+-
 ### A few configuration notes (for zsh and byobu)
+
+- [Moving to zsh](https://scriptingosx.com/2019/06/moving-to-zsh/) Excellant set of articles about moving to zsh on a Mac
 
 #### Install needed software (debian or Ubuntu)
 `sudo apt install -y git zsh byobu`
