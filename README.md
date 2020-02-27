@@ -31,7 +31,7 @@ Other other stuff:
 - [tldr](https://tldr.sh/) - Simplified man pages
 - [trailer](https://github.com/ptsochantaris/trailer) - Alerts for Pull Requests and Issues For GitHub & GitHub Enterprise
 - [JHipster](https://www.jhipster.tech/) Quickstart for creating a Java Spring app
-- [asciinema](https://asciinema.org/) asciinema is a free and open source solution for recording terminal sessions and sharing them on the web. 
+- [asciinema](https://asciinema.org/) asciinema is a free and open source solution for recording terminal sessions and sharing them on the web.
 
 ### A few configuration notes (for zsh and byobu)
 
@@ -55,6 +55,8 @@ Other other stuff:
 
 #### edit `~/.zshrc`
 ```
+export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=3'
+
 ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(zsh-autosuggestions git kube-ps1 kubectl)
 ```
