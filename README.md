@@ -56,6 +56,7 @@ Other other stuff:
 #### edit `~/.zshrc`
 ```
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=3'
+export HISTCONTROL=ignorespace
 
 ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(zsh-autosuggestions git kube-ps1 kubectl)
