@@ -16,6 +16,7 @@ A list of command line tools, with a focus on Kubernetes
 - [spekt8](https://github.com/spekt8/spekt8) - Visualize your Kubernetes cluster in real time
 - [docker-image-tag](https://github.com/stefanwalther/docker-image-tag) - Search docker hub by tags
 
+- [bat](https://github.com/sharkdp/bat) - Supports syntax highlighting for a large number of programming and markup languages
 - [jq](https://stedolan.github.io/jq/) - Like sed for JSON data
 - [yq](https://github.com/mikefarah/yq) - A portable command-line YAML processor
 - [inlets](https://github.com/inlets/inlets) - Cloud Native Tunnel written in Go
