@@ -26,7 +26,6 @@ Other stuff:
 - [TektonCD Catalog](https://github.com/tektoncd/catalog) - Catalog of shared Tasks and Pipelines.
 - [Buildah](https://github.com/containers/buildah/) - A tool that facilitates building Open Container Initiative (OCI) container images
 - [kubectl-fzf](http://bit.ly/2Nf6Ktq) - A fast kubectl autocompletion with fzf
-- [MacOS Tips & Tweaks](https://joshspicer.com/macos-tweaks) - Good concise info, including using touchID for `sudo`
 
 Other other stuff:
 
@@ -37,8 +36,11 @@ Other other stuff:
 
 ### A few configuration notes (for zsh and byobu)
 
+- [MacOS Tips & Tweaks](https://joshspicer.com/macos-tweaks) - Good concise info, including using touchID for `sudo`
 - [Moving to zsh](https://scriptingosx.com/2019/06/moving-to-zsh/) Excellant set of articles about moving to zsh on a Mac
 - [byobu](https://byobu.org/news.html) Byobu is a text-based window manager and terminal multiplexer.
+- [Docker desktop alternatives](https://alexos.dev/2022/01/02/docker-desktop-alternatives-for-m1-mac/) - Docker desktop alternatives for M1 Mac
+- [Rancher Desktop](https://rancherdesktop.io) - Rancher desktop, great alternative for Docker Desktop
 
 #### Install needed software (debian or Ubuntu)
 `sudo apt install -y git zsh byobu`
