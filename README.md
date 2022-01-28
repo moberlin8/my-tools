@@ -26,6 +26,7 @@ Other stuff:
 - [TektonCD Catalog](https://github.com/tektoncd/catalog) - Catalog of shared Tasks and Pipelines.
 - [Buildah](https://github.com/containers/buildah/) - A tool that facilitates building Open Container Initiative (OCI) container images
 - [kubectl-fzf](http://bit.ly/2Nf6Ktq) - A fast kubectl autocompletion with fzf
+- [MacOS Tips & Tweaks](https://joshspicer.com/macos-tweaks) - Good concise info, including using touchID for `sudo`
 
 Other other stuff:
 
