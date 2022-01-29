@@ -31,8 +31,9 @@ Other other stuff:
 
 - [tldr](https://tldr.sh/) - Simplified man pages
 - [trailer](https://github.com/ptsochantaris/trailer) - Alerts for Pull Requests and Issues For GitHub & GitHub Enterprise
-- [JHipster](https://www.jhipster.tech/) Quickstart for creating a Java Spring app
-- [asciinema](https://asciinema.org/) asciinema is a free and open source solution for recording terminal sessions and sharing them on the web.
+- [JHipster](https://www.jhipster.tech/) - Quickstart for creating a Java Spring app
+- [asciinema](https://asciinema.org/) - asciinema is a free and open source solution for recording terminal sessions and sharing them on the web.
+- [mackup](https://github.com/lra/mackup) - utility to backup and restore configuration files
 
 ### A few configuration notes (for zsh and byobu)
 
