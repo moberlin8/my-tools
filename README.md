@@ -34,6 +34,12 @@ Other other stuff:
 - [JHipster](https://www.jhipster.tech/) - Quickstart for creating a Java Spring app
 - [asciinema](https://asciinema.org/) - asciinema is a free and open source solution for recording terminal sessions and sharing them on the web.
 - [mackup](https://github.com/lra/mackup) - utility to backup and restore configuration files
+- [figlet]() - Install via brew. Make ascii banner text
+- [acsiinema](https://asciinema.org) - Install via brew. Capture terminal sessions for demo, examples, etc.
+
+Not especially useful:
+- [asciiquarium](https://robobunny.com/projects/asciiquarium/html/) - Install via brew. Acsii art aquarium
+- [edex-ui](https://github.com/GitSquared/edex-ui) - Install via brew, launch as an app. The terminal app to impress your non-techie friends.
 
 ### A few configuration notes (for zsh and byobu)
 
